@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Code for the title logo -->
+    <link rel="shortcut icon" type="x-icon" href="images/Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- Remix Icon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"/>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Scroll Reveal Animation CDN -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Scroll Reveal Script for running animation on every scroll -->
+    <!-- <script>
+      ScrollReveal({ reset: true });
+    </script> -->
+    <!-- Swiper JS Link -->
+    <script src="Javascript/swiper-bundle.min.js"></script>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Swiper JS CSS Link -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Website Title -->
+    <title>Past Portals | Historical Monuments</title>
+</head>
+<body>
+    <!-- HTML for Loader Text Animation -->
+    <div id="loader">
+      <h1>Everything About History</h1>
+      <h1><img src="images/Logo.png" alt="">Past Portals</h1>
+    </div>
+    <!-- Loader Ends here -->
+    
+    <!-- HTML for Navbar -->
+    <header>
+        <!-- Scroll Up Button -->
+        <div class="scroll-up-btn">
+            <i class="fas fa-angle-up"></i>
+        </div>
+        <!-- Using "top" as the name for the navbar beacuse "navbar" is already is used in Bootstrap -->
+        <nav class="top">
+            <div class="max-width">
+                <div class="logo"><a href="#"><img src="images/Logo.png" alt="" srcset="">Past Portals</a></div>
+                <ul class="menu">
+                    <li><a href="#home" class="menu-btn">Home</a></li>
+                    <li><a href="#discover" class="menu-btn">Discover</a></li>
+                    <li><a href="#about" class="menu-btn">About</a></li>
+                    <li><a href="#gallery" class="menu-btn">Gallery</a></li>
+                    <li><a href="#travel" class="menu-btn">Travel</a></li>
+                    <li><a href="#feedback" class="menu-btn">Feedback</a></li>
+                    <li><a href="#contactus" class="menu-btn">Contact Us</a></li>
+                </ul>
+                <!-- Menu Button for Small Screen -->
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar Ends here -->
+
+
+    <!-- HTML for Site Map -->
+    <div class="wrapper">
+      <!-- Checkbox button for Site Map Display -->
+      <input type="checkbox" id="btn" hidden />
+      <label for="btn" class="side-menu-btn">
+        <i class="fa-solid fa-angle-right"></i>
+        <i class="fa-solid fa-angle-left"></i>
+      </label>
+      <div id="sidebar">
+        <div class="title">Site Map</div>
+        <ul class="list-items">
+          <li>
+            <a href="#home"><i class="ri-home-line"></i>Home</a>
+          </li>
+          <li>
+            <a href="#discover"><i class="ri-planet-line"></i>Discover</a>
+          </li>
+          <li>
+            <a href="#about"><i class="ri-information-line"></i>About</a>      
+          </li>
+          <li>
+            <a href="#gallery"><i class="ri-gallery-fill"></i>Gallery</a>
+          </li>
+          <li>
+            <a href="#travel"><i class="ri-plane-line"></i>Travel</a>
+          </li>
+          <li>
+            <a href="#feedback"><i class="ri-feedback-line"></i>Feedback</a>
+          </li>
+          <li>
+            <a href="#contactus"><i class="ri-chat-1-line"></i>Contact Us</a>
+          </li>
+          <li>
+            <a href="#footer"><i class="ri-newspaper-line"></i>News letter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Site Map Ends here -->
+
+
+
+    <!-- HTML for Home Section  -->
+
+    <!-- Video Slider -->
+    <section class="home" id="home">
+        <video class="video-slide active" src="videos/1.mp4"  muted ></video>
+        <video class="video-slide" src="videos/2.mp4"  muted ></video>
+        <video class="video-slide" src="videos/3.mp4"  muted ></video>
+        <video class="video-slide" src="videos/4.mp4"  muted ></video>
+        <video class="video-slide" src="videos/5.mp4"  muted ></video>
+        <div class="content">
+            <h1>Everything <br><span>About History</span></h1>
+            <p>Embark on a captivating journey through time on our website dedicated to historical monuments. Delve into the rich tapestry of human civilization as we explore iconic structures, each with a unique story to tell. From ancient wonders to modern marvels, discover the cultural and architectural heritage that has shaped our world. Uncover the secrets, significance, and timeless beauty of these monuments, forging a connection with the past that resonates in the present. Welcome to a virtual exploration of historical grandeur.</p>
+            <a href="#r">Read More <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <!-- Navigation Radio Buttons -->
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </section>
+    <!-- Video Slider Ends here -->
+
+    <!-- Home Section Ends here -->
+
+    <!-- HTML for Discover Section -->
+    <section class="discover" id="discover">
+        <h2 class="discover-header">Discover the most Engaging Places</h2>
+        <p class="discover-subheader">
+          Unveil hidden gems and untold wonders in our Exploration Hub.
+        </p>
+        <div class="discover-wrapper">
+          <!-- Card 1 -->
+          <div class="discover-card">
+            <div class="discover-image">
+              <img src="images/D1.avif" alt="">
+            </div>
+            <div class="discover-card-content">
+              <h4>Colosseum</h4>
+              <p>
+              The Colosseum, an ancient amphitheater in Rome, stands as an iconic symbol of Roman engineering and gladiatorial prowess. Its majestic arches and storied history draw visitors into the heart of ancient spectacle.
+              </p>
+              <button class="discover-btn">Discover More <i class="ri-arrow-right-line"></i></button>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="discover-card">
+            <div class="discover-image">
+              <img src="images/D2.avif" alt="">
+            </div>
+            <div class="discover-card-content">
+              <h4>Eiffel Tower</h4>
+              <p>
+              The Eiffel Tower, a wrought-iron masterpiece in Paris, invites you to ascend its heights for breathtaking views of the City of Light. A testament to 19th-century innovation, its intricate lattice design has become synonymous with French elegance.
+              </p>
+              <button class="discover-btn">Discover More <i class="ri-arrow-right-line"></i></button>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="discover-card">
+            <div class="discover-image">
+              <img src="images/D3.avif" alt="">
+            </div>
+            <div class="discover-card-content">
+              <h4>Great Wall</h4>
+              <p>
+              The Great Wall of China, winding through the country's rugged landscapes, stands as a colossal testament to human determination and defensive prowess. Spanning centuries, this architectural wonder is a symbol of China's enduring strength and rich history.
+              </p>
+              <button class="discover-btn">Discover More <i class="ri-arrow-right-line"></i></button>
+            </div>
+          </div>
+        </div> 
+    </section>
+    <!-- Discover Section Ends here -->
+
+    <!-- HTML for About Us Section -->
+    <section class="about" id="about">
+      <div class="about-heading">
+        <h1>About Us</h1>
+        <p>Discover the allure of history with Past Portals. We delve into the depths of time, unveiling captivating tales of ancient monuments.</p>
+      </div>
+      <div class="about-container">
+        <div class="about-main">
+            <div class="about-image">
+                <img src="images/about-bg.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2>Historical Monument</h2>
+                <p>Welcome to Past Portals, where history comes alive! Immerse yourself in a journey through time as we explore and celebrate the world's most captivating historical monuments. Our passion for preserving the past drives us to share stories that transcend generations. Join us in unlocking the secrets of ancient wonders and unraveling the tapestry of human history. Past Portals is your gateway to a richer understanding of our shared heritage.</p>
+                <a href="#r" class="about-btn">Read More <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us Section Ends here -->
+
+    <!-- HTML for Gallery Section -->
+    <section class="gallery" id="gallery">
+      <div class="gallery-heading">
+        <h1>Gallery</h1>
+        <p>Step into a visual journey through time in our gallery, showcasing the majestic beauty and rich history of renowned monuments.</p>
+        <h3>World Wonders</h3>
+      </div>
+      <!-- gallery for world wonders -->
+      <div class="gallery-main">
+        <div class="gallery-wrapper">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <div class="carousel">
+            <img src="images/g1.jpg" alt="img" draggable="false">
+            <img src="images/g2.jpg" alt="img" draggable="false">
+            <img src="images/g3.jpg" alt="img" draggable="false">
+            <img src="images/g4.jpg" alt="img" draggable="false">
+            <img src="images/g5.jpg" alt="img" draggable="false">
+            <img src="images/g6.jpg" alt="img" draggable="false">
+            <img src="images/g7.jpg" alt="img" draggable="false">
+            <img src="images/g8.jpg" alt="img" draggable="false">
+            <img src="images/g9.jpg" alt="img" draggable="false">
+          </div>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+      <!-- preview box for full screen -->
+      <div class="lightbox">
+        <i class="close-icon fa-solid fa-times"></i>
+        <div class="preview-img">
+          <img src="" alt="preview-img">
+        </div>
+      </div>
+
+
+      <div class="zone-wrapper">
+        <div class="zone-gallery-heading">
+          <h1>Zone Wise Gallery</h1>
+        </div>
+        <!-- filter Items -->
+        <div class="zones">
+          <div class="items">
+            <span class="item active" data-name="all">All</span>
+            <span class="item" data-name="north">North</span>
+            <span class="item" data-name="south">South</span>
+            <span class="item" data-name="west">West</span>
+            <span class="item" data-name="east">East</span>
+          </div>
+        </div>
+        <!-- filter Images -->
+        <div class="zone-gallery">
+          <div class="image" data-name="north"><span><img src="images/n1.jpg" alt=""><p>Parthenon, Greece<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="north"><span><img src="images/n2.jpg" alt=""><p>Machu Picchu, Peru<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="north"><span><img src="images/n3.jpg" alt=""><p>Petra, Jordan<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="north"><span><img src="images/n4.jpg" alt=""><p>Red Fort, India<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="south"><span><img src="images/s1.jpg" alt=""><p>Gyeongbokgung, South Korea<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="south"><span><img src="images/s2.jpg" alt=""><p>Chicken Itza, Mexico<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="south"><span><img src="images/s3.jpg" alt=""><p>Christ the Redeemer, Brazil<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="south"><span><img src="images/s4.jpg" alt=""><p>Moai Statues, Chile<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="west"><span><img src="images/w1.jpg" alt=""><p>London Bridge, UK<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="west"><span><img src="images/w2.jpg" alt=""><p>Stonehenge, England<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="west"><span><img src="images/w3.jpg" alt=""><p>Colosseum, Italy<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="west"><span><img src="images/w4.jpg" alt=""><p>Eiffel Tower, Paris<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="east"><span><img src="images/e1.jpg" alt=""><p>Borobodur Temple, Indonesia<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="east"><span><img src="images/e2.jpg" alt=""><p>Forbidden City, China<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="east"><span><img src="images/e3.jpg" alt=""><p>Dome of the Rock, Palestine<i class="ri-zoom-in-line"></i></p></span></div>
+          <div class="image" data-name="east"><span><img src="images/e4.jpg" alt=""><p>Himeji Castle, Japan<i class="ri-zoom-in-line"></i></p></span></div>
+        </div>
+        <!-- Download option to download PDF file -->
+        <div class="download-heading">
+          <h2>Download the complete history about World Wonders and Historical Monuments around the world!</h2>
+        </div>
+        <div class="download">
+          <a href="Historical Monuments.pdf" download="">Download<i class="ri-download-line"></i></a>
+        </div>
+      </div>
+      <!-- fullscreen img preview box -->
+      <div class="preview-box">
+        <div class="details">
+          <span class="title">Image Category: <p></p></span>
+          <span class="icon fas fa-times"></span>
+        </div>
+        <div class="image-box"><img src="" alt=""></div>
+      </div>
+      <div class="shadow"></div>
+    </section>
+    <!-- Gallery Section Ends here -->
+
+    <!-- HTML for Travel Section -->
+    <section class="travel" id="travel">
+      <!-- Title for Travel Section -->
+      <div class="title-bg">
+        <h1>Travel with us</h1>
+      </div>
+      <!-- Travel Body -->
+      <div class="travel-card">
+        <div class="card-body">
+          <!-- Tab Navbar for Tab -->
+          <ul class="navbar">
+            <li>
+              <a href="#c" class="tab active" data-id="car">
+                <span class="icon"><i class="ri-car-line"></i></span>
+                <span class="text"><i class="ri-car-line"></i> Car</span>
+              </a>
+            </li>
+            <li>
+              <a href="#b" class="tab" data-id="bus" id="no-radius">
+                <span class="icon"><i class="ri-bus-2-line"></i></span>
+                <span class="text"><i class="ri-bus-2-line"></i> Bus</span>
+              </a>
+            </li>
+            <li>
+              <a href="#s" class="tab" data-id="ship" id="no-radius">
+                <span class="icon"><i class="ri-ship-2-line"></i></span>
+                <span class="text"><i class="ri-ship-2-line"></i> Ship</span>
+              </a>
+            </li>
+            <li>
+              <a href="#p" class="tab" data-id="plane" id="left-radius">
+                <span class="icon"><i class="ri-plane-line"></i></span>
+                <span class="text"><i class="ri-plane-line"></i> Plane</span>
+              </a>
+            </li>
+          </ul>
+          <!-- Tab Navbar Ends here -->
+  
+          <!-- HTML for Tab Content -->
+          <div class="tab-content">
+            <!-- First Tab Content -->
+            <div class="tab-pane active" id="car">
+              <!-- Using row from Bootstrap -->
+              <div class="row">
+                <!-- Offers section -->
+                <div class="col-md-6 one">                 
+                  <div class="offers">
+                    <h1>Offer and Benefits</h1>
+                    <ul>
+                      <li><i class="ri-check-line"></i> Discover historical wonders in comfort.</li>
+                      <li><i class="ri-check-line"></i> Expert drivers share monument insights.</li>
+                      <li><i class="ri-check-line"></i> Seamless door-to-door service.</li>
+                      <li><i class="ri-check-line"></i> Choose from luxury to SUVs.</li>
+                      <li><i class="ri-check-line"></i> Clean, safe, and well-maintained vehicles.</li>
+                      <li><i class="ri-check-line"></i> Picture-perfect arrivals at iconic sites.</li>
+                      <li><i class="ri-check-line"></i> Affordable packages for memorable trips.</li>
+                      <li><i class="ri-check-line"></i> Unforgettable journeys through time await.</li>
+                    </ul>
+                    <p>Book now with the starting price of just <span>$699!</span></p>
+                  </div>
+                </div>
+                <!-- Offers Section Ends here -->
+                
+                <!-- Form box Section -->
+                <div class="col-md-6 two">
+                  <div class="form-box">
+                    <h1>Book Now</h1>
+                    <div class="container-fluid">
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputName11">First Name</label>
+                            <input type="text" class="form-control" id="inputName11" autocomplete="off">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputName12">Last Name</label>
+                            <input type="text" class="form-control" id="inputName12" autocomplete="off">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail1">Email</label>
+                          <input type="email" class="form-control" id="inputEmail1" placeholder="example@gmail.com" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress1">Address</label>
+                          <input type="text" class="form-control" id="inputAddress1" placeholder="Apartment, studio, or floor" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputCar">Car Type</label>
+                          <select id="inputCar" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Basic</option>
+                            <option>Standard</option>
+                            <option>Premium</option>
+                          </select>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-4">
+                            <label for="inputPickup1">Pickup</label>
+                            <input type="text" class="form-control" id="inputPickup1" placeholder="Your City" autocomplete="off">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputDestination1">Destination</label>
+                            <select id="inputDestination1" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>Parthenon, Greece</option>
+                              <option>Eiffel Tower, Paris</option>
+                              <option>Gyeongbokgung, South Korea</option>
+                              <option>Chicken Itza, Mexico</option>
+                              <option>Christ the Redeemer, Brazil</option>
+                              <option>Himeji Castle, Japan</option>
+                              <option>Petra, Jordan</option>
+                              <option>Moai Statues, Chile</option>
+                              <option>Red Fort, India</option>
+                              <option>Pyramid of Giza, Egypt</option>
+                              <option>Taj Mahal, India</option>
+                              <option>Mohenjo Daro, Pakistan</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputPayment1">Payment Method</label>
+                            <select id="inputPayment1" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>Credit Card</option>
+                              <option>Debit Card</option>
+                              <option>Cash</option>
+                              <option>Others</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                              I confirm that all the data is correct
+                            </label>
+                          </div>
+                        </div>
+                        <a class="btn btn-default btn-block" href="#b" role="button">Confirm</a>                       
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- Form box Section Ends here -->
+
+              </div>
+              <!-- Row Ends here -->
+            </div>
+            <!-- First Tab Content Ends here -->
+
+            <!-- Second Tab Content -->
+            <div class="tab-pane" id="bus">
+              <!-- Using row from Bootstrap -->
+              <div class="row">
+                <!-- Offers section -->
+                <div class="col-md-6 one">                 
+                  <div class="offers">
+                    <h1>Offer and Benefits</h1>
+                    <ul>
+                      <li><i class="ri-check-line"></i> Discover history comfortably with our bus service.</li>
+                      <li><i class="ri-check-line"></i> Expert drivers guide you to iconic monuments.</li>
+                      <li><i class="ri-check-line"></i> Spacious buses accommodate all passengers.</li>
+                      <li><i class="ri-check-line"></i> Learn fascinating stories from knowledgeable guides.</li>
+                      <li><i class="ri-check-line"></i> Convenient routes cover multiple sites in one trip.</li>
+                      <li><i class="ri-check-line"></i> Safety is our top priority with regular maintenance.</li>
+                      <li><i class="ri-check-line"></i> Enjoy stunning views from panoramic windows.</li>
+                      <li><i class="ri-check-line"></i> Perfect for families, travelers, and history buffs alike.</li>
+                      <li><i class="ri-check-line"></i> Flexible scheduling to fit your itinerary.</li>
+                      <li><i class="ri-check-line"></i> Affordable and reliable transportation option.</li>
+                      <li><i class="ri-check-line"></i> Experience hassle-free sightseeing with us.</li>
+                      <li><i class="ri-check-line"></i> Unforgettable journeys through time await.</li>
+                    </ul>
+                    <p>Book now with the starting price of just <span>899!</span></p>
+                  </div>
+                </div>
+                <!-- Offers Section Ends here -->
+                
+                <!-- Form box Section -->
+                <div class="col-md-6 two">
+                  <div class="form-box">
+                    <h1>Book Now</h1>
+                    <div class="container-fluid">
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputName21">First Name</label>
+                            <input type="text" class="form-control" id="inputName21" autocomplete="off">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputName22">Last Name</label>
+                            <input type="text" class="form-control" id="inputName22" autocomplete="off">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail2">Email</label>
+                          <input type="email" class="form-control" id="inputEmail2" placeholder="example@gmail.com" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress2">Address</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputBus">Bus Type</label>
+                          <select id="inputBus" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Basic</option>
+                            <option>Standard</option>
+                            <option>Premium</option>
+                          </select>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-4">
+                            <label for="inputPickup2">Pickup</label>
+                            <input type="text" class="form-control" id="inputPickup2" placeholder="Your City" autocomplete="off">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputDestination2">Destination</label>
+                            <select id="inputDestination2" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>Parthenon, Greece</option>
+                              <option>Eiffel Tower, Paris</option>
+                              <option>Gyeongbokgung, South Korea</option>
+                              <option>Chicken Itza, Mexico</option>
+                              <option>Christ the Redeemer, Brazil</option>
+                              <option>Himeji Castle, Japan</option>
+                              <option>Petra, Jordan</option>
+                              <option>Moai Statues, Chile</option>
+                              <option>Red Fort, India</option>
+                              <option>Pyramid of Giza, Egypt</option>
+                              <option>Taj Mahal, India</option>
+                              <option>Mohenjo Daro, Pakistan</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputPayment2">Payment Method</label>
+                            <select id="inputPayment2" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>Credit Card</option>
+                              <option>Debit Card</option>
+                              <option>Cash</option>
+                              <option>Others</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck2">
+                            <label class="form-check-label" for="gridCheck2">
+                              I confirm that all the data is correct
+                            </label>
+                          </div>
+                        </div>
+                        <a class="btn btn-default btn-block" href="#b" role="button">Confirm</a>                       
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- Form box Section Ends here -->
+
+              </div>
+              <!-- Row Ends here -->
+            </div>
+            <!-- Second Tab Content Ends here -->
+            
+            <!-- Third Tab Content -->
+            <div class="tab-pane" id="ship">
+              <!-- Using row from Bootstrap -->
+              <div class="row">
+                <!-- Offers section -->
+                <div class="col-md-6 one">                 
+                  <div class="offers">
+                    <h1>Offer and Benefits</h1>
+                    <ul>
+                      <li><i class="ri-check-line"></i> Sail through history with our ship service.</li>
+                      <li><i class="ri-check-line"></i> Captains navigate you to iconic monuments.</li>
+                      <li><i class="ri-check-line"></i> Spacious ships accommodate all passengers.</li>
+                      <li><i class="ri-check-line"></i> Learn fascinating stories from knowledgeable crew.</li>
+                      <li><i class="ri-check-line"></i> Convenient routes cover multiple sites in one trip.</li>
+                      <li><i class="ri-check-line"></i> Safety is our top priority with regular inspections.</li>
+                      <li><i class="ri-check-line"></i> Enjoy breathtaking views from onboard decks.</li>
+                      <li><i class="ri-check-line"></i> Perfect for families, travelers, and history enthusiasts.</li>
+                      <li><i class="ri-check-line"></i> Flexible scheduling to fit your itinerary.</li>
+                      <li><i class="ri-check-line"></i> Affordable and reliable maritime transportation.</li>
+                      <li><i class="ri-check-line"></i> Experience seamless sightseeing on the water.</li>
+                      <li><i class="ri-check-line"></i> Unforgettable journeys through time await aboard our ships.</li>
+                    </ul>
+                    <p>Book now with the starting price of just <span>$1899!</span></p>
+                  </div>
+                </div>
+                <!-- Offers Section Ends here -->
+                
+                <!-- Form box Section -->
+                <div class="col-md-6 two">
+                  <div class="form-box">
+                    <h1>Book Now</h1>
+                    <div class="container-fluid">
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputName31">First Name</label>
+                            <input type="text" class="form-control" id="inputName31" autocomplete="off">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputName32">Last Name</label>
+                            <input type="text" class="form-control" id="inputName32" autocomplete="off">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail3">Email</label>
+                          <input type="email" class="form-control" id="inputEmail3" placeholder="example@gmail.com" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress3">Address</label>
+                          <input type="text" class="form-control" id="inputAddress3" placeholder="Apartment, studio, or floor" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputShip">Ship Type</label>
+                          <select id="inputShip" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Basic</option>
+                            <option>Standard</option>
+                            <option>Premium</option>
+                          </select>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-4">
+                            <label for="inputPickup3">Pickup</label>
+                            <input type="text" class="form-control" id="inputPickup3" placeholder="Your City" autocomplete="off">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputDestination3">Destination</label>
+                            <select id="inputDestination3" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>Parthenon, Greece</option>
+                              <option>Eiffel Tower, Paris</option>
+                              <option>Gyeongbokgung, South Korea</option>
+                              <option>Chicken Itza, Mexico</option>
+                              <option>Christ the Redeemer, Brazil</option>
+                              <option>Himeji Castle, Japan</option>
+                              <option>Petra, Jordan</option>
+                              <option>Moai Statues, Chile</option>
+                              <option>Red Fort, India</option>
+                              <option>Pyramid of Giza, Egypt</option>
+                              <option>Taj Mahal, India</option>
+                              <option>Mohenjo Daro, Pakistan</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputPayment3">Payment Method</label>
+                            <select id="inputPayment3" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>Credit Card</option>
+                              <option>Debit Card</option>
+                              <option>Cash</option>
+                              <option>Others</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck3">
+                            <label class="form-check-label" for="gridCheck3">
+                              I confirm that all the data is correct
+                            </label>
+                          </div>
+                        </div>
+                        <a class="btn btn-default btn-block" href="#b" role="button">Confirm</a>                       
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- Form box Section Ends here -->
+
+              </div>
+              <!-- Row Ends here -->
+            </div>
+            <!-- Third Tab Content Ends here -->
+
+            <!-- Fourth Tab Content -->
+            <div class="tab-pane" id="plane">
+              <!-- Using row from Bootstrap -->
+              <div class="row">
+                <!-- Offers section -->
+                <div class="col-md-6 one">                 
+                  <div class="offers">
+                    <h1>Offer and Benefits</h1>
+                    <ul>
+                      <li><i class="ri-check-line"></i> Soar through history with our plane service.</li>
+                      <li><i class="ri-check-line"></i> Pilots guide you to iconic monuments.</li>
+                      <li><i class="ri-check-line"></i> Spacious planes accommodate all passengers.</li>
+                      <li><i class="ri-check-line"></i> Learn fascinating stories from knowledgeable crew.</li>
+                      <li><i class="ri-check-line"></i> Convenient routes cover multiple sites in one trip.</li>
+                      <li><i class="ri-check-line"></i> Safety is our top priority with rigorous inspections.</li>
+                      <li><i class="ri-check-line"></i> Enjoy bird's-eye views of historic landscapes.</li>
+                      <li><i class="ri-check-line"></i> Perfect for families, travelers, and history buffs.</li>
+                      <li><i class="ri-check-line"></i> Flexible scheduling to fit your itinerary.</li>
+                      <li><i class="ri-check-line"></i> Affordable and reliable air transportation.</li>
+                      <li><i class="ri-check-line"></i> Experience seamless sightseeing from the skies.</li>
+                      <li><i class="ri-check-line"></i> Unforgettable journeys through time await aboard our planes.</li>
+                    </ul>
+                    <p>Book now with the starting price of just <span>$4999!</span></p>
+                  </div>
+                </div>
+                <!-- Offers Section Ends here -->
+                
+                <!-- Form box Section -->
+                <div class="col-md-6 two">
+                  <div class="form-box">
+                    <h1>Book Now</h1>
+                    <div class="container-fluid">
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputName41">First Name</label>
+                            <input type="text" class="form-control" id="inputName41" autocomplete="off">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputName42">Last Name</label>
+                            <input type="text" class="form-control" id="inputName42" autocomplete="off">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail4">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="example@gmail.com" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress4">Address</label>
+                          <input type="text" class="form-control" id="inputAddress4" placeholder="Apartment, studio, or floor" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputPlane">Plane Type</label>
+                          <select id="inputPlane" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Basic</option>
+                            <option>Standard</option>
+                            <option>Premium</option>
+                          </select>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-4">
+                            <label for="inputPickup4">Pickup</label>
+                            <input type="text" class="form-control" id="inputPickup4" placeholder="Your City" autocomplete="off">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputDestination4">Destination</label>
+                            <select id="inputDestination4" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>Parthenon, Greece</option>
+                              <option>Eiffel Tower, Paris</option>
+                              <option>Gyeongbokgung, South Korea</option>
+                              <option>Chicken Itza, Mexico</option>
+                              <option>Christ the Redeemer, Brazil</option>
+                              <option>Himeji Castle, Japan</option>
+                              <option>Petra, Jordan</option>
+                              <option>Moai Statues, Chile</option>
+                              <option>Red Fort, India</option>
+                              <option>Pyramid of Giza, Egypt</option>
+                              <option>Taj Mahal, India</option>
+                              <option>Mohenjo Daro, Pakistan</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputPayment4">Payment Method</label>
+                            <select id="inputPayment4" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>Credit Card</option>
+                              <option>Debit Card</option>
+                              <option>Cash</option>
+                              <option>Others</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck4">
+                            <label class="form-check-label" for="gridCheck4">
+                              I confirm that all the data is correct
+                            </label>
+                          </div>
+                        </div>
+                        <a class="btn btn-default btn-block" href="#b" role="button">Confirm</a>                       
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- Form box Section Ends here -->
+              </div>
+              <!-- Row Ends here -->
+            </div>
+            <!-- Fourth Tab Content Ends here -->
+          </div>
+          <!-- Tab Content Ends here -->
+        </div>
+      </div>
+      <!-- Travel Body Ends here -->
+    </section>
+    <!-- Travel Section Ends here -->
+
+    <!-- HTML for Feedback Section -->
+    <section class="feedback" id="feedback">
+      <!-- HTML for Rate Us modal -->
+      <div class="experience">
+        <span class="feedback-overlay"></span>
+
+        <div class="modal-box">
+          <i class="fa-regular fa-face-smile"></i>
+          <header>How was your experience?</header>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="feedback-message">
+            <textarea required placeholder="Write your feedback.."></textarea>
+          </div>
+
+          <div class="buttons">
+            <button class="close-btn" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+      <!-- Rate Us modal Ends here -->
+
+      <!-- HTML for Swiper JS feedback slider -->
+      <div class="feedback-heading">
+        <!-- Heading for feedbacks -->
+        <h1>Feedback</h1>
+      </div>
+      <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="images/profile1.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <!-- Name -->
+                <h2 class="name">Emily Johnson</h2>
+                <!-- Description (Feedback) -->
+                <p class="description">
+                  Detailed exhibits and educational content create a historical treasure. Commendable work, offering immersive learning and valuable insights for enthusiasts.
+                </p>
+
+                <!-- Rating in stars -->
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="images/profile2.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Jasmine Martinez</h2>
+                <p class="description">
+                  Meticulous attention to historical details, immersive learning. Commendable effort in preserving our past, highly recommended for educational enrichment.
+                </p>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="images/profile3.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Ethan Thompson</h2>
+                <p class="description">
+                  Outstanding educational value, with fascinating historical content providing a commendable platform for enthusiasts. A treasure trove of knowledge and insights.
+                </p>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="images/profile4.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Marcus Rodriguez</h2>
+                <p class="description">
+                  Well-researched details and educational depth showcase a commitment to historical accuracy. Valuable resource for expanding knowledge, a commendable effort.
+                </p>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="images/profile5.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Liam Turner</h2>
+                <p class="description">
+                  Meticulous attention to historical details creates an immersive learning experience. Commendable effort in sharing our past, outstanding educational value.
+                </p>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="images/profile6.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Olivia Anderson</h2>
+                <p class="description">
+                  Educational excellence through detailed narratives and comprehensive historical insights. A must-visit for the enthusiasts of knowledge.
+                </p>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="images/profile7.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Carlos Mendez</h2>
+                <p class="description">
+                  The wealth of historical information is remarkable, offering a fantastic resource for those passionate about delving into the past. Commendable effort.
+                </p>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="images/profile8.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Sophia Carter</h2>
+                <p class="description">
+                  A truly educational experience! Detailed content adds depth to historical understanding. great insightful learning, a commendable platform for enthusiasts.
+                </p>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img src="images/profile9.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Jackson Brooks</h2>
+                <p class="description">
+                  Impressed by historical depth and attention to detail. An educational beacon for those passionate about history. Valuable resource and commendable effort.
+                </p>
+
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn" ></div>
+        <div class="swiper-button-prev swiper-navBtn" ></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- Button for the Rate Us modal -->
+      <div class="experience">
+        <button class="show-modal">Rate Us!</button>
+      </div>
+    </section>
+    <!-- Feedback Section End here -->
+
+    <!-- HTML for Contact Us Section -->
+    <section class="contact" id="contactus">
+      <div class="contact-container">
+          <!-- Contact Info -->
+          <div class="contactInfo">
+              <div>
+                <h2>Contact Info</h2>
+                <ul class="info">
+                  <li>
+                      <span><img src="images/location.png" alt=""></span>
+                      <span>15th Street, Nazimabad No.1, Karachi, Pakistan</span>
+                  </li>
+                  <li>
+                      <span><img src="images/mail.png" alt=""></span>
+                      <span>pastportals@info.net</span>
+                  </li>
+                  <li>
+                      <span><img src="images/call.png" alt=""></span>
+                      <span>+92-300-1231231</span>
+                  </li>
+                </ul>
+              </div>
+              <ul class="contact-social">
+                  <li><a href="#"><i class="fa-brands fa-facebook-f" id="fb"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-x-twitter" id="x"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram" id="ins"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-pinterest-p" id="pin"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-youtube" id="yt"></i></a></li>
+              </ul>
+          </div>
+          <!-- Contact Info Ends here -->
+    
+          <!-- Contact Form -->
+          <div class="contactForm">
+              <h2>Contact Us</h2>
+              <!-- Using Formsubmit.io to send the from to Email directly -->
+              <form action="https://formsubmit.co/projectexample101@gmail.com" method="POST">
+                  <div class="formBox">
+                      <div class="inputBox w50">
+                          <input type="text" placeholder="" id="fname" name="first name" autocomplete="off" required>
+                          <span>First Name</span>
+                      </div>
+                      <div class="inputBox w50">
+                          <input type="text" placeholder="" id="lname" name="last name" autocomplete="off" required>
+                          <span>Last Name</span>
+                      </div>
+                      <div class="inputBox w50">
+                          <input type="email" placeholder="" id="email" name="email" autocomplete="off" required>
+                          <span>Email Address</span>
+                      </div>
+                      <div class="inputBox w50">
+                          <input type="tel" placeholder="" id="phone" name="phone" autocomplete="off" required>
+                          <span>Mobile Number</span>
+                      </div>
+                      <div class="inputBox w100">
+                          <textarea placeholder="" id="message" name="message" autocomplete="off" required></textarea>
+                          <span>Message</span>
+                      </div>
+                          <!-- Hidden inputs for Formsubmit.io for customization -->
+
+                          <!-- To disable Re-Captcha -->
+                          <input type="hidden" name="_captcha" value="false">
+
+                          <!-- To use custom Email template -->
+                          <input type="hidden" name="_template" value="table">
+
+                          <!-- To use custom form submission page -->
+                          <input type="hidden" name="_next" value="http://127.0.0.1:5502/thanks.html">
+                      <div class="inputBox w100">
+                          <input type="submit" value="Send">
+                      </div>
+                  </div>
+              </form>
+          </div>
+          <!-- Contact Form Ends here -->
+      </div>
+    </section>
+    <!-- Contact Us Section Ends here -->
+
+
+    <!-- HTML for Footer -->
+    <footer id="footer">
+      <div class="footer-content">
+        <div class="footer-top">
+          <div class="logo-details">
+              <img src="images/Logo.png" alt="">
+            <span class="logo_name">Past Portals</span>
+          </div>
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <!-- "hr" is used for line -->
+        <hr color="#0aaca7">
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Past Portals</li>
+            <li><a href="#g">Get started</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">On Page</li>
+            <li><a href="#discover">Discover</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#travel">Travel</a></li>
+            <li><a href="#feedback">Feedbacks</a></li>
+          </ul>
+          <!-- Links without any data -->
+          <ul class="box">
+            <li class="link_name">Services</li>
+            <li><a href="#b">Blogs</a></li>
+            <li><a href="#a">Articles</a></li>
+            <li><a href="#n">News</a></li>
+            <li><a href="#c">Channel</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Shop</li>
+            <li><a href="#m">Monument Diary</a></li>
+            <li><a href="#k">Keychains</a></li>
+            <li><a href="#s">Souvenir</a></li>
+            <li><a href="#c">Charms</a></li>
+          </ul>
+          <!-- Input and button for news letter -->
+          <ul class="box input-box">
+            <li class="link_name">Subscribe</li>
+            <li><input type="text" placeholder="Enter your email"></li>
+            <li><input type="button" value="Subscribe"></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Bottom Details -->
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright &#169; 2024 <a href="#past">Past Portals.</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#privacy">Privacy policy</a>
+            <a href="#terms">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends here -->
+
+
+
+    <!-- Javascript Link -->
+    <script src="Javascript/script.js"></script>
+</body>
+</html>
+
+<!-- ****INDEX PAGE HTML ENDS HERE**** -->
