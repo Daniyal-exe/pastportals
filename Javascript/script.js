@@ -15,18 +15,18 @@ $(document).ready(function(){
         }
 
         // Site Map button show/hide script
-        if(this.scrollY > 900){
-            $('.side-menu-btn').addClass("site-show");
-        }else{
-            $('.side-menu-btn').removeClass("site-show");
-        }
+        // if(this.scrollY > 900){
+        //     $('.side-menu-btn').addClass("site-show");
+        // }else{
+        //     $('.side-menu-btn').removeClass("site-show");
+        // }
 
         // Site Map show/hide script
-        if(this.scrollY > 900){
-           $('#sidebar').addClass("sidebar-show");
-        }else{
-           $('#sidebar').removeClass("sidebar-show");
-      }
+      //   if(this.scrollY > 900){
+      //      $('#sidebar').addClass("sidebar-show");
+      //   }else{
+      //      $('#sidebar').removeClass("sidebar-show");
+      // }
     });
 
 
@@ -86,16 +86,16 @@ $(document).ready(function () {
 
 
 //Sitemap Menu Close on click Script
-document.addEventListener("DOMContentLoaded", function() {
-  var sidebar = document.getElementById("sidebar");
-  var sidebarItems = sidebar.querySelectorAll(".list-items li a");
-  for (var i = 0; i < sidebarItems.length; i++) {
-    sidebarItems[i].addEventListener("click", function() {
-      sidebar.classList.remove("sidebar-show");
-      document.getElementById("btn").checked = false;
-    });
-  }
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//   var sidebar = document.getElementById("sidebar");
+//   var sidebarItems = sidebar.querySelectorAll(".list-items li a");
+//   for (var i = 0; i < sidebarItems.length; i++) {
+//     sidebarItems[i].addEventListener("click", function() {
+//       sidebar.classList.remove("sidebar-show");
+//       document.getElementById("btn").checked = false;
+//     });
+//   }
+// });
 
 
 // video slider script
